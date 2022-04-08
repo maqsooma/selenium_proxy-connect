@@ -1,0 +1,3 @@
+with zipfile.ZipFile(pluginfile, 'w') as zp:
+        zp.writestr("manifest.json", manifest_json)
+        zp.writestr("background.js", background_js)
